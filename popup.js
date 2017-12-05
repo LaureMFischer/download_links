@@ -56,7 +56,7 @@ function downloadCheckedLinks() {
         filename = filename.slice(0, -1);
       };
 
-      var filePath = courseName + '/' + visibleLinks[i]['dueDate'] + '/' + filename;
+      var filePath = courseName + '/' + filename;
 
       // Use Chrome downloads API to download links
       chrome.downloads.download({url: visibleLinks[i]['href'],
