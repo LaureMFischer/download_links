@@ -1,6 +1,6 @@
 A Chrome extension designed to download all files from Canvas course pages. Modified version of the "Download Selected Links" Chrome extension sample found [here.](https://developer.chrome.com/extensions/samples#search:downloads)
 
-####Instructions for Use
+#### Instructions for Use
 
 1. In Chrome, go to the Canvas website, and navigate to the "Overview" page for the course for which you want to download files. This is extension will only work on the "Overview" page.
 
