@@ -55,6 +55,9 @@ function downloadCheckedLinks() {
       if (filename[filename.length - 1] === '.') {
         filename = filename.slice(0, -1);
       };
+      if (filename[0] === ' ') {
+        filename = filename.substring(1);
+      };
 
       var filePath = courseName + '/' + filename;
 
